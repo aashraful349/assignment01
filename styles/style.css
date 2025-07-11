@@ -231,6 +231,7 @@ nav {
     align-items: center;
     column-gap: 158px;
     padding-bottom: 50px;
+    margin-bottom: 92.23px;;
 }
 .focus-title{
     font-size: 50px;
@@ -246,7 +247,98 @@ nav {
     width: 840px;
     height: 364.77px;
     border-radius: 48px;
+    
 }
 .contact{
-    display: flex;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 118px;
+}
+.form input[type="email"],
+.form input[type="text"]{
+    height: 64px;
+    border-radius: 10px;
+    display: block;
+    width: 497px;
+    height: 70px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    border-color: rgba(214, 221, 237, 0.288);
+}
+.form textarea{
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    border-color: rgba(214, 221, 237, 1);
+    display: block;
+    margin-bottom: 10px;
+}
+.form button{
+    background-color: #4E47FF;
+    border-color: transparent;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    width: 497px;
+    height: 62px;
+}
+.form-title{
+    font-size: 97px;
+    margin-left: 115px;
+    width: 528px;
+    height: 232px;
+    margin-top: 8px;
+}
+/* footer */
+.f-color{
+    color: rgba(78, 71, 255, 1);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 531px;
+    height: 221px;
+    padding: 104px 455px; */
+    background-color: #ffffff00;
+    margin-bottom: 103px;
+
+}
+.others ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 0;
+}
+.f-anchor{
+    text-decoration: none;
+}
+
+.f-title-style{
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 8px;
+    width: 291px;
+    height: 121px;
+}
+.f-subtitle{
+    width: 531px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgba(6, 26, 80, 0.459);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(32, 32, 32, 0.329);
 }
