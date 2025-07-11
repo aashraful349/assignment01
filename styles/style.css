@@ -223,3 +223,27 @@ nav {
 .p-container{
     margin-bottom: 137px;
 }
+/* Poster */
+.poster{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 158px;
+    padding-bottom: 50px;
+}
+.focus-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.focus-sub-title{
+    margin-bottom: 20px;
+}
+.focus-button{
+    margin-bottom:20px;
+}
+.focus-image{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
